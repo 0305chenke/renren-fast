@@ -27,4 +27,5 @@ public class TestTask implements ITask {
 	public void run(String params){
 		logger.debug("TestTask定时任务正在执行，参数为：{}", params);
 	}
+
 }
